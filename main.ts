@@ -21,7 +21,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showIcon(IconNames.Happy)
 })
 
-// when button B is pressed turns motor to 0 degrees
+// when button B is pressed turns motor to 180 degrees
 input.onButtonPressed(Button.B, function () {
   robotbit.Servo(servoNumber1, 180)
   basic.clearScreen()
